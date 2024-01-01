@@ -87,7 +87,6 @@ div.beloved:after {
   z-index: 50;
   display: flex;
   position: absolute;
-  white-space: pre;
   text-align: center;
   line-height: 1.1;
   color: #ffffff;
@@ -99,10 +98,10 @@ div.beloved:after {
 div.beloved:after a {
   color: #ffffff;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 div.beloved:after a:hover {
-  color: #ffffff;
   text-decoration: none;
 }
 
@@ -111,7 +110,7 @@ div.beloved:after a::before {
 }
 
 div.beloved:after a::after {
-  content: "dkrahul_11";
+  content: "YOUR_INSTAGRAM_ID";
   display: block;
 }
 
@@ -134,4 +133,3 @@ div.beloved:after {
     transform: translateX(3vmin) translateY(-3vmin);
   }
 }
-
