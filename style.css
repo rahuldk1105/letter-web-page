@@ -98,7 +98,6 @@ div.beloved:after {
 div.beloved:after a {
   color: #ffffff;
   text-decoration: underline;
-  cursor: pointer;
 }
 
 div.beloved:after a:hover {
@@ -107,11 +106,12 @@ div.beloved:after a:hover {
 
 div.beloved:after a::before {
   content: "Thank you \a tell me how it was in here \a Follow me on Instagram: ";
+  display: block;
 }
 
 div.beloved:after a::after {
-  content: "YOUR_INSTAGRAM_ID";
-  display: block;
+  content: "dkrahul_11";
+  display: inline-block;
 }
 
 div.beloved:before {
