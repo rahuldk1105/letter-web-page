@@ -105,5 +105,33 @@ div.beloved:after a:hover {
 }
 
 div.beloved:after a::before {
-  content: "Thank you \
+  content: "Thank you \a tell me how it was in \a ";
+  display: block;
+  color: white; /* Changed font color to white */
+}
 
+div.beloved:after a::after {
+  content: "YOUR_INSTAGRAM_ID";
+  display: inline-block;
+  text-decoration: none;
+}
+
+div.beloved:before {
+  animation: floatturn 10s ease-out infinite;
+}
+
+@keyframes floatturn {
+  50% {
+    transform: rotateZ(45deg) translateY(-3vmin);
+  }
+}
+
+div.beloved:after {
+  animation: float 10s ease-out infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translateX(3vmin) translateY(-3vmin);
+  }
+}
