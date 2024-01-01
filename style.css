@@ -12,7 +12,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  margin: 0 auto;
+  margin: 0;
   background: linear-gradient(180deg, #000000 15%, #000000 100%);
 }
 
@@ -90,9 +90,9 @@ div.beloved:after {
   text-align: center;
   line-height: 1.1;
   color: #ffffff;
-  opacity: 0.38;
+  opacity: 0.9;
   font-family: "Architects Daughter", cursive;
-  font-size: 12vmin;
+  font-size: 6vmin;
 }
 
 div.beloved:after a {
@@ -105,31 +105,5 @@ div.beloved:after a:hover {
 }
 
 div.beloved:after a::before {
-  content: "Thank you \a tell me how it was in here \a Follow me on Instagram: ";
-  display: block;
-}
+  content: "Thank you \
 
-div.beloved:after a::after {
-  content: "dkrahul_11";
-  display: inline-block;
-}
-
-div.beloved:before {
-  animation: floatturn 10s ease-out infinite;
-}
-
-@keyframes floatturn {
-  50% {
-    transform: rotateZ(45deg) translateY(-3vmin);
-  }
-}
-
-div.beloved:after {
-  animation: float 10s ease-out infinite;
-}
-
-@keyframes float {
-  50% {
-    transform: translateX(3vmin) translateY(-3vmin);
-  }
-}
